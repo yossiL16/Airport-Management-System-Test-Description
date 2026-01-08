@@ -10,6 +10,6 @@ export default function buyAnyTicket(passenger, price, listOfTickets, obj){
                 return ticket
             }
         }
-        return "The flight is full"
     }
+    return "The flight is full"
 }
