@@ -6,8 +6,8 @@ export default function buyAnyTicket(passenger, price, listOfTickets, obj){
         if(ticket instanceof obj){
             if(ticket.ownerName === null){
                 ticket.ownerName = passenger.name
-                passenger.amountOfMoney - price
-                return "The purchase was successful."
+                passenger.amountOfMoney -= price
+                return ticket
             }
         }
         return "The flight is full"
